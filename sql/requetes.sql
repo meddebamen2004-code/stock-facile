@@ -63,3 +63,7 @@ Résultat : FOREIGN KEY constraint failed*/
 DELETE FROM categories WHERE id = 1;
 /*L'exécution s'est terminée avec des erreurs.
 Résultat : FOREIGN KEY constraint failed*/
+
+--4.1
+INSERT INTO categories (nom, description)
+VALUES ('Électroménager', 'Petits appareils');

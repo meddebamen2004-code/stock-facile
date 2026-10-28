@@ -12,3 +12,11 @@ Il faut fermer la base pour éviter les conflits d'accès et les problèmes d'é
 
 #question de reflection partie 
 'factory' permet de créer un objet à partir des données de la base de données. et 'toDouble()' convertit un nombre en 'double'
+
+#3.2
+(1) Deux appels à DatabaseHelper() retournent le même objet grâce au constructeur factory.
+(2) ??= donne une valeur à une variable seulement si elle est null.
+(3) onConfigure active les clés étrangères à chaque ouverture de la base.
+(4) onCreate est appelé une seule fois, lors de la création initiale de la base.
+
+#3.5 Non, le message onCreate ne s'affiche plus, car la base de données existe déjà. 

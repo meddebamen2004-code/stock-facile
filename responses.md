@@ -5,3 +5,10 @@
 
 #Q1.8
 Il faut fermer la base pour éviter les conflits d'accès et les problèmes d'écriture lorsque deux programmes utilisent le même fichier en même temps.
+
+#2.3
+'id' est de type 'int?' car il est nul avant l'ajout de la catégorie dans la base de données. 
+'toMap()' ajoute l'id seulement s'il n'est pas null
+
+#question de reflection partie 
+'factory' permet de créer un objet à partir des données de la base de données. et 'toDouble()' convertit un nombre en 'double'
